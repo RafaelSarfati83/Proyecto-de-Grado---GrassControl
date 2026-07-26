@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#718493"/>
+</marker>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+<feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0B2545" flood-opacity="0.10"/>
+</filter>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="18" height="1100" fill="#2E7D32"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#0B2545">Casos de uso</text>
+<text x="72" y="120" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#5F6B76">Funciones observadas y responsabilidades operativas de GRASS CONTROL</text>
+<line x1="72" y1="148" x2="1728" y2="148" stroke="#EEF3F7" stroke-width="3"/>
+<rect x="390" y="190" width="1330" height="800" rx="28" fill="#F7F9FB" stroke="#2E74B5" stroke-width="3"/>
+<rect x="430" y="215" width="270" height="48" rx="24" fill="#EAF2F8" stroke="#EAF2F8" stroke-width="0"/>
+<text x="565.0" y="247" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="700" fill="#1F4D78" text-anchor="middle">
+<tspan x="565.0" dy="0">SISTEMA APPSHEET</tspan>
+</text>
+<ellipse cx="190.0" cy="293.0" rx="28.0" ry="28.0" fill="#FFFFFF" stroke="#1F4D78" stroke-width="4"/>
+<polyline points="190,321 190,435" fill="none" stroke="#1F4D78" stroke-width="4"/>
+<polyline points="130,360 250,360" fill="none" stroke="#1F4D78" stroke-width="4"/>
+<polyline points="190,435 135,510" fill="none" stroke="#1F4D78" stroke-width="4"/>
+<polyline points="190,435 245,510" fill="none" stroke="#1F4D78" stroke-width="4"/>
+<text x="190" y="558" font-family="Calibri,Arial,sans-serif" font-size="25" font-weight="700" fill="#1F4D78" text-anchor="middle">
+<tspan x="190" dy="0">Usuario autorizado</tspan>
+</text>
+<ellipse cx="190.0" cy="748.0" rx="28.0" ry="28.0" fill="#FFFFFF" stroke="#1B5E20" stroke-width="4"/>
+<polyline points="190,776 190,890" fill="none" stroke="#1B5E20" stroke-width="4"/>
+<polyline points="130,815 250,815" fill="none" stroke="#1B5E20" stroke-width="4"/>
+<polyline points="190,890 135,965" fill="none" stroke="#1B5E20" stroke-width="4"/>
+<polyline points="190,890 245,965" fill="none" stroke="#1B5E20" stroke-width="4"/>
+<text x="190" y="1013" font-family="Calibri,Arial,sans-serif" font-size="25" font-weight="700" fill="#1B5E20" text-anchor="middle">
+<tspan x="190" dy="0">Administrador</tspan>
+</text>
+<ellipse cx="670.0" cy="370.0" rx="170.0" ry="60.0" fill="#FFFFFF" stroke="#2E74B5" stroke-width="3"/>
+<text x="670.0" y="363" font-family="Calibri,Arial,sans-serif" font-size="25" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="670.0" dy="0">Iniciar sesión</tspan>
+<tspan x="670.0" dy="29.5">y sincronizar</tspan>
+</text>
+<ellipse cx="1080.0" cy="370.0" rx="170.0" ry="60.0" fill="#FFFFFF" stroke="#2E74B5" stroke-width="3"/>
+<text x="1080.0" y="363" font-family="Calibri,Arial,sans-serif" font-size="25" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="1080.0" dy="0">Consultar praderas</tspan>
+<tspan x="1080.0" dy="29.5">y semáforo</tspan>
+</text>
+<ellipse cx="1490.0" cy="370.0" rx="170.0" ry="60.0" fill="#FFFFFF" stroke="#2E74B5" stroke-width="3"/>
+<text x="1490.0" y="363" font-family="Calibri,Arial,sans-serif" font-size="25" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="1490.0" dy="0">Registrar una</tspan>
+<tspan x="1490.0" dy="29.5">aplicación</tspan>
+</text>
+<ellipse cx="670.0" cy="580.0" rx="170.0" ry="60.0" fill="#FFFFFF" stroke="#2E74B5" stroke-width="3"/>
+<text x="670.0" y="573" font-family="Calibri,Arial,sans-serif" font-size="25" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="670.0" dy="0">Agregar productos</tspan>
+<tspan x="670.0" dy="29.5">a la aplicación</tspan>
+</text>
+<ellipse cx="1080.0" cy="580.0" rx="170.0" ry="60.0" fill="#FFFFFF" stroke="#2E74B5" stroke-width="3"/>
+<text x="1080.0" y="573" font-family="Calibri,Arial,sans-serif" font-size="25" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="1080.0" dy="0">Cerrar la</tspan>
+<tspan x="1080.0" dy="29.5">aplicación</tspan>
+</text>
+<ellipse cx="1490.0" cy="580.0" rx="170.0" ry="60.0" fill="#FFFFFF" stroke="#2E74B5" stroke-width="3"/>
+<text x="1490.0" y="573" font-family="Calibri,Arial,sans-serif" font-size="25" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="1490.0" dy="0">Consultar historial</tspan>
+<tspan x="1490.0" dy="29.5">y productos</tspan>
+</text>
+<ellipse cx="760.0" cy="830.0" rx="200.0" ry="60.0" fill="#E8F5E9" stroke="#2E7D32" stroke-width="3"/>
+<text x="760.0" y="821" font-family="Calibri,Arial,sans-serif" font-size="23" font-weight="700" fill="#1B5E20" text-anchor="middle">
+<tspan x="760.0" dy="0">Gestionar catálogos</tspan>
+<tspan x="760.0" dy="27.139999999999997">praderas · productos · aplicadores</tspan>
+</text>
+<ellipse cx="1330.0" cy="830.0" rx="200.0" ry="60.0" fill="#E8F5E9" stroke="#2E7D32" stroke-width="3"/>
+<text x="1330.0" y="821" font-family="Calibri,Arial,sans-serif" font-size="23" font-weight="700" fill="#1B5E20" text-anchor="middle">
+<tspan x="1330.0" dy="0">Administrar usuarios</tspan>
+<tspan x="1330.0" dy="27.139999999999997">y configuración</tspan>
+</text>
+<polyline points="300,360 390,360" fill="none" stroke="#718493" stroke-width="3"/>
+<text x="345" y="338" font-family="Calibri,Arial,sans-serif" font-size="18" font-weight="700" fill="#5F6B76" text-anchor="middle">
+<tspan x="345" dy="0">opera</tspan>
+</text>
+<polyline points="300,815 390,815" fill="none" stroke="#2E7D32" stroke-width="3"/>
+<text x="345" y="793" font-family="Calibri,Arial,sans-serif" font-size="18" font-weight="700" fill="#1B5E20" text-anchor="middle">
+<tspan x="345" dy="0">administra</tspan>
+</text>
+<text x="1055" y="949" font-family="Calibri,Arial,sans-serif" font-size="19" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="1055" dy="0">Nota: “Usuario autorizado” y “Administrador” son responsabilidades conceptuales.</tspan>
+<tspan x="1055" dy="22.419999999999998">La configuración revisada no define perfiles funcionales separados dentro de la app.</tspan>
+</text>
+<text x="1728" y="1068" font-family="Calibri,Arial,sans-serif" font-size="18" fill="#5F6B76" text-anchor="end">GRASS CONTROL · SUASUQUE S.A.S. · 2026</text>
+</svg>

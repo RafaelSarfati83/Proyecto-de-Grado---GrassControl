@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#718493"/>
+</marker>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+<feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0B2545" flood-opacity="0.10"/>
+</filter>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="18" height="1100" fill="#2E7D32"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#0B2545">Arquitectura de la solución</text>
+<text x="72" y="120" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#5F6B76">Vista lógica de acceso, reglas, sincronización y persistencia</text>
+<line x1="72" y1="148" x2="1728" y2="148" stroke="#EEF3F7" stroke-width="3"/>
+<rect x="90" y="285" width="300" height="310" rx="28" fill="#EAF2F8" stroke="#2E74B5" stroke-width="3"/>
+<text x="240" y="343" font-family="Calibri,Arial,sans-serif" font-size="23" font-weight="700" fill="#1F4D78" text-anchor="middle">
+<tspan x="240" dy="0">USUARIO</tspan>
+</text>
+<rect x="145" y="385" width="190" height="105" rx="18" fill="#FFFFFF" stroke="#2E74B5" stroke-width="2" filter="url(#shadow)"/>
+<text x="240" y="427" font-family="Calibri,Arial,sans-serif" font-size="22" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="240" dy="0">Navegador</tspan>
+<tspan x="240" dy="25.959999999999997">móvil o escritorio</tspan>
+</text>
+<text x="240" y="545" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="240" dy="0">Conectado u offline</tspan>
+</text>
+<rect x="500" y="210" width="650" height="600" rx="30" fill="#FFFFFF" stroke="#2E7D32" stroke-width="4" filter="url(#shadow)"/>
+<rect x="545" y="235" width="250" height="48" rx="24" fill="#E8F5E9" stroke="#E8F5E9" stroke-width="0"/>
+<text x="670.0" y="267" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="700" fill="#1B5E20" text-anchor="middle">
+<tspan x="670.0" dy="0">APPSHEET</tspan>
+</text>
+<text x="825" y="349" font-family="Calibri,Arial,sans-serif" font-size="34" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="825" dy="0">GRASS CONTROL</tspan>
+</text>
+<rect x="560" y="385" width="530" height="105" rx="18" fill="#EAF2F8" stroke="#2E74B5" stroke-width="2"/>
+<text x="825" y="431" font-family="Calibri,Arial,sans-serif" font-size="23" font-weight="700" fill="#1F4D78" text-anchor="middle">
+<tspan x="825" dy="0">Interfaz</tspan>
+</text>
+<text x="825" y="465" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="825" dy="0">vistas · formularios · navegación</tspan>
+</text>
+<rect x="560" y="520" width="530" height="120" rx="18" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/>
+<text x="825" y="565" font-family="Calibri,Arial,sans-serif" font-size="23" font-weight="700" fill="#1B5E20" text-anchor="middle">
+<tspan x="825" dy="0">Lógica de negocio</tspan>
+</text>
+<text x="825" y="599" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="825" dy="0">acciones · slices · fórmulas · validaciones</tspan>
+</text>
+<rect x="560" y="670" width="245" height="90" rx="16" fill="#F7F9FB" stroke="#AEBCC8" stroke-width="2"/>
+<text x="682" y="708" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="700" fill="#183042" text-anchor="middle">
+<tspan x="682" dy="0">Quick sync</tspan>
+<tspan x="682" dy="23.599999999999998">Delayed sync</tspan>
+</text>
+<rect x="845" y="670" width="245" height="90" rx="16" fill="#F7F9FB" stroke="#AEBCC8" stroke-width="2"/>
+<text x="968" y="708" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="700" fill="#183042" text-anchor="middle">
+<tspan x="968" dy="0">Acceso como</tspan>
+<tspan x="968" dy="23.599999999999998">creador de la app</tspan>
+</text>
+<rect x="1260" y="250" width="455" height="510" rx="28" fill="#FFF4CE" stroke="#C58B00" stroke-width="3"/>
+<rect x="1305" y="275" width="300" height="48" rx="24" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<text x="1455.0" y="307" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="700" fill="#C58B00" text-anchor="middle">
+<tspan x="1455.0" dy="0">GOOGLE SHEETS</tspan>
+</text>
+<text x="1487" y="379" font-family="Calibri,Arial,sans-serif" font-size="29" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="1487" dy="0">CONTROL_POTREROS</tspan>
+</text>
+<rect x="1300" y="420" width="175" height="58" rx="12" fill="#FFFFFF" stroke="#AEBCC8" stroke-width="1" filter="url(#shadow)"/>
+<text x="1387" y="453" font-family="Calibri,Arial,sans-serif" font-size="17" font-weight="700" fill="#183042" text-anchor="middle">
+<tspan x="1387" dy="0">APLICACIONES</tspan>
+</text>
+<rect x="1505" y="420" width="175" height="58" rx="12" fill="#FFFFFF" stroke="#AEBCC8" stroke-width="1" filter="url(#shadow)"/>
+<text x="1592" y="453" font-family="Calibri,Arial,sans-serif" font-size="17" font-weight="700" fill="#183042" text-anchor="middle">
+<tspan x="1592" dy="0">DETALLE_PRODUCTOS</tspan>
+</text>
+<rect x="1300" y="510" width="175" height="58" rx="12" fill="#FFFFFF" stroke="#AEBCC8" stroke-width="1" filter="url(#shadow)"/>
+<text x="1387" y="543" font-family="Calibri,Arial,sans-serif" font-size="17" font-weight="700" fill="#183042" text-anchor="middle">
+<tspan x="1387" dy="0">POTREROS</tspan>
+</text>
+<rect x="1505" y="510" width="175" height="58" rx="12" fill="#FFFFFF" stroke="#AEBCC8" stroke-width="1" filter="url(#shadow)"/>
+<text x="1592" y="543" font-family="Calibri,Arial,sans-serif" font-size="17" font-weight="700" fill="#183042" text-anchor="middle">
+<tspan x="1592" dy="0">PRODUCTOS</tspan>
+</text>
+<rect x="1300" y="600" width="175" height="58" rx="12" fill="#FFFFFF" stroke="#AEBCC8" stroke-width="1" filter="url(#shadow)"/>
+<text x="1387" y="633" font-family="Calibri,Arial,sans-serif" font-size="17" font-weight="700" fill="#183042" text-anchor="middle">
+<tspan x="1387" dy="0">APLICADORES</tspan>
+</text>
+<rect x="1505" y="600" width="175" height="58" rx="12" fill="#FFFFFF" stroke="#AEBCC8" stroke-width="1" filter="url(#shadow)"/>
+<text x="1592" y="633" font-family="Calibri,Arial,sans-serif" font-size="17" font-weight="700" fill="#183042" text-anchor="middle">
+<tspan x="1592" dy="0">DASHBOARD</tspan>
+</text>
+<rect x="500" y="865" width="650" height="95" rx="20" fill="#E5F4F5" stroke="#177E89" stroke-width="2"/>
+<text x="825" y="907" font-family="Calibri,Arial,sans-serif" font-size="23" font-weight="700" fill="#177E89" text-anchor="middle">
+<tspan x="825" dy="0">Caché local y cola de cambios</tspan>
+</text>
+<text x="825" y="941" font-family="Calibri,Arial,sans-serif" font-size="19" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="825" dy="0">Inicio y contenido offline habilitados</tspan>
+</text>
+<rect x="90" y="720" width="300" height="160" rx="22" fill="#F7F9FB" stroke="#AEBCC8" stroke-width="2"/>
+<text x="240" y="765" font-family="Calibri,Arial,sans-serif" font-size="21" font-weight="700" fill="#1F4D78" text-anchor="middle">
+<tspan x="240" dy="0">AUTENTICACIÓN</tspan>
+</text>
+<text x="240" y="815" font-family="Calibri,Arial,sans-serif" font-size="25" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="240" dy="0">Google Sign-In</tspan>
+</text>
+<text x="240" y="849" font-family="Calibri,Arial,sans-serif" font-size="18" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="240" dy="0">Lista explícita de usuarios</tspan>
+</text>
+<polyline points="390,440 500,440" fill="none" stroke="#2E74B5" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="445" y="415" font-family="Calibri,Arial,sans-serif" font-size="18" font-weight="700" fill="#1F4D78" text-anchor="middle">
+<tspan x="445" dy="0">HTTPS</tspan>
+</text>
+<polyline points="390,800 450,800 450,330 500,330" fill="none" stroke="#718493" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="420" y="752" font-family="Calibri,Arial,sans-serif" font-size="17" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="420" dy="0">identidad</tspan>
+</text>
+<polyline points="1150,505 1260,505" fill="none" stroke="#C58B00" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="1260,565 1150,565" fill="none" stroke="#718493" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="1205" y="466" font-family="Calibri,Arial,sans-serif" font-size="18" font-weight="700" fill="#C58B00" text-anchor="middle">
+<tspan x="1205" dy="0">lectura / escritura</tspan>
+</text>
+<polyline points="825,810 825,865" fill="none" stroke="#177E89" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="770,865 770,810" fill="none" stroke="#177E89" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1487" y="824" font-family="Calibri,Arial,sans-serif" font-size="19" font-weight="700" fill="#B3261E" text-anchor="middle">
+<tspan x="1487" dy="0">Sin filtros de seguridad por tabla · Sin bots configurados</tspan>
+</text>
+<text x="1728" y="1068" font-family="Calibri,Arial,sans-serif" font-size="18" fill="#5F6B76" text-anchor="end">GRASS CONTROL · SUASUQUE S.A.S. · 2026</text>
+</svg>

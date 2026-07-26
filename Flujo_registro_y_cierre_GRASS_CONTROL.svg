@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1200" viewBox="0 0 2200 1200">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#718493"/>
+</marker>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+<feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0B2545" flood-opacity="0.10"/>
+</filter>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="0" y="0" width="18" height="1200" fill="#2E7D32"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#0B2545">Flujo para registrar y cerrar una aplicación</text>
+<text x="72" y="120" font-family="Calibri,Arial,sans-serif" font-size="23" fill="#5F6B76">Secuencia operativa recomendada, incluidos productos y sincronización</text>
+<line x1="72" y1="148" x2="2128" y2="148" stroke="#EEF3F7" stroke-width="3"/>
+<rect x="65" y="205" width="2070" height="355" rx="24" fill="#EAF2F8" stroke="#2E74B5" stroke-width="2"/>
+<rect x="65" y="615" width="2070" height="410" rx="24" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/>
+<rect x="95" y="225" width="210" height="48" rx="24" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<text x="200.0" y="257" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="700" fill="#1F4D78" text-anchor="middle">
+<tspan x="200.0" dy="0">USUARIO</tspan>
+</text>
+<rect x="95" y="635" width="270" height="48" rx="24" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<text x="230.0" y="667" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="700" fill="#1B5E20" text-anchor="middle">
+<tspan x="230.0" dy="0">APPSHEET / DATOS</tspan>
+</text>
+<ellipse cx="190.0" cy="395.0" rx="75.0" ry="45.0" fill="#FFFFFF" stroke="#2E74B5" stroke-width="3"/>
+<text x="190" y="396" font-family="Calibri,Arial,sans-serif" font-size="24" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="190" dy="0">Inicio</tspan>
+</text>
+<rect x="335" y="315" width="275" height="160" rx="20" fill="#FFFFFF" stroke="#2E74B5" stroke-width="3" filter="url(#shadow)"/>
+<text x="472" y="360" font-family="Calibri,Arial,sans-serif" font-size="24" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="472" dy="0">1. Acceder</tspan>
+</text>
+<text x="472" y="402" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="472" dy="0">Iniciar sesión</tspan>
+<tspan x="472" dy="23.599999999999998">y sincronizar</tspan>
+</text>
+<rect x="680" y="315" width="300" height="160" rx="20" fill="#FFFFFF" stroke="#2E74B5" stroke-width="3" filter="url(#shadow)"/>
+<text x="830" y="359" font-family="Calibri,Arial,sans-serif" font-size="23" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="830" dy="0">2. Nueva aplicación</tspan>
+</text>
+<text x="830" y="401" font-family="Calibri,Arial,sans-serif" font-size="19" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="830" dy="0">Fecha · potrero · aplicador</tspan>
+<tspan x="830" dy="22.419999999999998">agua · estado ABIERTA</tspan>
+</text>
+<rect x="1050" y="315" width="300" height="160" rx="20" fill="#FFFFFF" stroke="#2E74B5" stroke-width="3" filter="url(#shadow)"/>
+<text x="1200" y="359" font-family="Calibri,Arial,sans-serif" font-size="23" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="1200" dy="0">3. Agregar productos</tspan>
+</text>
+<text x="1200" y="401" font-family="Calibri,Arial,sans-serif" font-size="19" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="1200" dy="0">Producto · dosis</tspan>
+<tspan x="1200" dy="22.419999999999998">cantidad · unidad</tspan>
+</text>
+<polygon points="1500,310.0 1625.0,395 1500,480.0 1375.0,395" fill="#FFF4CE" stroke="#C58B00" stroke-width="3"/>
+<text x="1500" y="371" font-family="Calibri,Arial,sans-serif" font-size="21" font-weight="700" fill="#0B2545" text-anchor="middle">
+<tspan x="1500" dy="0">¿Lista de</tspan>
+<tspan x="1500" dy="24.779999999999998">productos completa?</tspan>
+</text>
+<rect x="1735" y="315" width="290" height="160" rx="20" fill="#FFFFFF" stroke="#B3261E" stroke-width="3" filter="url(#shadow)"/>
+<text x="1880" y="358" font-family="Calibri,Arial,sans-serif" font-size="22" font-weight="700" fill="#B3261E" text-anchor="middle">
+<tspan x="1880" dy="0">4. Cerrar aplicación</tspan>
+</text>
+<text x="1880" y="405" font-family="Calibri,Arial,sans-serif" font-size="19" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="1880" dy="0">Revisar y ejecutar</tspan>
+<tspan x="1880" dy="22.419999999999998">Cerrar Aplicación</tspan>
+</text>
+<rect x="670" y="735" width="320" height="155" rx="20" fill="#FFFFFF" stroke="#2E7D32" stroke-width="3" filter="url(#shadow)"/>
+<text x="830" y="778" font-family="Calibri,Arial,sans-serif" font-size="23" font-weight="700" fill="#1B5E20" text-anchor="middle">
+<tspan x="830" dy="0">Guardar cabecera</tspan>
+</text>
+<text x="830" y="821" font-family="Calibri,Arial,sans-serif" font-size="19" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="830" dy="0">Crea APLICACIONES</tspan>
+<tspan x="830" dy="22.419999999999998">con ESTADO = ABIERTA</tspan>
+</text>
+<rect x="1040" y="735" width="320" height="155" rx="20" fill="#FFFFFF" stroke="#177E89" stroke-width="3" filter="url(#shadow)"/>
+<text x="1200" y="778" font-family="Calibri,Arial,sans-serif" font-size="23" font-weight="700" fill="#177E89" text-anchor="middle">
+<tspan x="1200" dy="0">Guardar detalle</tspan>
+</text>
+<text x="1200" y="821" font-family="Calibri,Arial,sans-serif" font-size="19" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="1200" dy="0">Crea una fila en</tspan>
+<tspan x="1200" dy="22.419999999999998">DETALLE_PRODUCTOS</tspan>
+</text>
+<rect x="1720" y="725" width="320" height="175" rx="20" fill="#FFFFFF" stroke="#B3261E" stroke-width="3" filter="url(#shadow)"/>
+<text x="1880" y="769" font-family="Calibri,Arial,sans-serif" font-size="23" font-weight="700" fill="#B3261E" text-anchor="middle">
+<tspan x="1880" dy="0">Actualizar estado</tspan>
+</text>
+<text x="1880" y="811" font-family="Calibri,Arial,sans-serif" font-size="19" font-weight="400" fill="#5F6B76" text-anchor="middle">
+<tspan x="1880" dy="0">ESTADO = CERRADA</tspan>
+<tspan x="1880" dy="22.419999999999998">Sale del slice de abiertas</tspan>
+</text>
+<rect x="1370" y="930" width="670" height="70" rx="18" fill="#E5F4F5" stroke="#177E89" stroke-width="2"/>
+<text x="1705" y="966" font-family="Calibri,Arial,sans-serif" font-size="21" font-weight="700" fill="#177E89" text-anchor="middle">
+<tspan x="1705" dy="0">5. Sincronizar → historial, última fecha y semáforo se recalculan</tspan>
+</text>
+<polyline points="265,395 335,395" fill="none" stroke="#2E74B5" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="610,395 680,395" fill="none" stroke="#2E74B5" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="830,475 830,735" fill="none" stroke="#2E7D32" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="990,812 1015,812 1015,395 1050,395" fill="none" stroke="#718493" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="1200,475 1200,735" fill="none" stroke="#177E89" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="1360,812 1410,812 1410,570 1500,570 1500,480" fill="none" stroke="#718493" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="1535" y="525" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="700" fill="#1B5E20" text-anchor="start">
+<tspan x="1535" dy="0">Sí</tspan>
+</text>
+<polyline points="1625,395 1735,395" fill="none" stroke="#2E7D32" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="1880,475 1880,725" fill="none" stroke="#B3261E" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="1880,900 1880,930" fill="none" stroke="#177E89" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="1500,310 1500,265 1200,265 1200,315" fill="none" stroke="#C58B00" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="1360" y="250" font-family="Calibri,Arial,sans-serif" font-size="20" font-weight="700" fill="#C58B00" text-anchor="middle">
+<tspan x="1360" dy="0">No: agregar el producto faltante</tspan>
+</text>
+<text x="1100" y="1086" font-family="Calibri,Arial,sans-serif" font-size="21" font-weight="700" fill="#B3261E" text-anchor="middle">
+<tspan x="1100" dy="0">Punto de control: la acción de cierre es inmediata y no solicita confirmación. Sincronice después de guardar y después de cerrar.</tspan>
+</text>
+<text x="2128" y="1168" font-family="Calibri,Arial,sans-serif" font-size="18" fill="#5F6B76" text-anchor="end">GRASS CONTROL · SUASUQUE S.A.S. · 2026</text>
+</svg>
