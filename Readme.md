@@ -14,9 +14,10 @@ El sistema reemplaza las bitácoras físicas tradicionales expuestas a deterioro
 
 ---
 
-## Arquitectura del Sistema
+## Arquitectura y Diagramas del Sistema
 
-![Arquitectura del Sistema](assets/arquitectura.png)
+### Arquitectura del Sistema
+![Arquitectura GRASS CONTROL](assets/Arquitectura_GRASS_CONTROL.svg)
 
 ### Flujo e Integración Lógica
 1. **Captura (Capa de Acceso):** Dispositivos móviles (Android/iOS) utilizados en campo por operadores y administradores.
@@ -24,6 +25,21 @@ El sistema reemplaza las bitácoras físicas tradicionales expuestas a deterioro
 3. **Almacenamiento (Google Workspace):**
    - **Google Sheets:** Base de datos relacional (Praderas, Aplicaciones, Productos, Usuarios, Detalle).
    - **Google Drive:** Repositorio en la nube para respaldos y archivos adjuntos.
+
+---
+
+### Casos de Uso
+![Casos de Uso GRASS CONTROL](assets/Casos_de_uso_GRASS_CONTROL.svg)
+
+---
+
+### Flujo de Registro y Cierre
+![Flujo de Registro y Cierre GRASS CONTROL](assets/Flujo_registro_y_cierre_GRASS_CONTROL.svg)
+
+---
+
+### Modelo Lógico de Datos
+![Modelo Lógico GRASS CONTROL](assets/Modelo_logico_GRASS_CONTROL.svg)
 
 ---
 
@@ -49,14 +65,15 @@ El sistema reemplaza las bitácoras físicas tradicionales expuestas a deterioro
 ## Estructura del Repositorio
 
 - `README.md`: Documentación principal del proyecto
-- `docs/`
-  - `01-diagnostico.md`: Caracterización del proceso y hallazgos
-  - `02-requisitos.md`: Requisitos Funcionales (RF) y No Funcionales (RNF)
-  - `03-metodologia.md`: Gestión del proyecto por Sprints (Scrum)
-- `assets/`
-  - `arquitectura.png`: Diagrama de arquitectura / flujo del sistema
-- `data/`
-  - `modelo_datos.md`: Definición de entidades y relaciones
+- `assets/`: Diagramas de arquitectura, casos de uso, flujo y modelo lógico (`.svg`)
+- `Diccionario_de_datos_GRASS_CONTROL.pdf`: Especificación de datos del sistema
+- `Manual_de_usuario_GRASS_CONTROL.pdf`: Guía operativa para el usuario
+- `Nota_de_acc_restringido_GRASS_CONTROL.pdf`: Documento de confidencialidad y restricciones
+- Documentación de análisis y diseño:
+  - `Diagnostico.md`
+  - `Requisitos.md`
+  - `Metodologia.md`
+  - `Modelo de datos.md`
 
 ---
 
